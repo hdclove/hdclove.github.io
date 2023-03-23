@@ -18,4 +18,12 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title></title>
+    <url>/2023/03/23/myblog/</url>
+    <content><![CDATA[<hr>
+<p>title: myblog<br>date: 2023-03-23 23:14:04</p>
+<p>看网上都是说改config.xml, 但讲真的，1没说清楚，2没给路径，而且大多都是复制粘贴别人的，就自己头铁试试吧，写这个坑的日期是在2021.11.12，nodejs 版本v10.19.0，系统是Ubuntu 20.04<br>先说路径，是自己初始化博客的那个文件夹，下的_config.yml<br>highlight:<br>  enable: false         #就只有这一句，true改成false，就结束了<br>  line_number: true<br>  auto_detect: false<br>  tab_replace: ‘’<br>  wrap: true<br>  hljs: false</p>
+]]></content>
+  </entry>
 </search>
