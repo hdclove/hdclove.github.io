@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World你好</title>
-    <url>/2023/03/23/hello-world/</url>
+    <url>/2023/03/24/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
 </code></pre>
@@ -20,7 +20,7 @@
   </entry>
   <entry>
     <title></title>
-    <url>/2023/03/23/myblog/</url>
+    <url>/2023/03/24/myblog/</url>
     <content><![CDATA[<hr>
 <p>title: myblog<br>date: 2023-03-23 23:14:04</p>
 <p>看网上都是说改config.xml, 但讲真的，1没说清楚，2没给路径，而且大多都是复制粘贴别人的，就自己头铁试试吧，写这个坑的日期是在2021.11.12，nodejs 版本v10.19.0，系统是Ubuntu 20.04<br>先说路径，是自己初始化博客的那个文件夹，下的_config.yml<br>highlight:<br>  enable: false         #就只有这一句，true改成false，就结束了<br>  line_number: true<br>  auto_detect: false<br>  tab_replace: ‘’<br>  wrap: true<br>  hljs: false</p>
