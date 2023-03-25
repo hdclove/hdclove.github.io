@@ -52,7 +52,7 @@
 <p>title: 齐天のBLOG    #网页标题<br>subtitle:     #副标题<br>  enable:  false</p>
 <p>  effect: true<br>  loop: true<br>  sub:<br>    讲话要温和轻柔，态度要谦诚亲切。</p>
 <p><a href="http://github.com/">GitHub</a><br>自动生成连接  <a href="http://www.github.com/">http://www.github.com/</a></p>
-<p><img src="img/backgroud.png" alt="baidu"></p>
+<p><img src="/2023/03/23/myblog/backgroud.png" alt="avatar"><br><img src="http://baidu.com/pic/doge.png" alt="avatar"></p>
 ]]></content>
   </entry>
 </search>
