@@ -19,11 +19,40 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/2023/03/24/myblog/</url>
-    <content><![CDATA[<hr>
-<p>title: myblog<br>date: 2023-03-23 23:14:04</p>
-<p>看网上都是说改config.xml, 但讲真的，1没说清楚，2没给路径，而且大多都是复制粘贴别人的，就自己头铁试试吧，写这个坑的日期是在2021.11.12，nodejs 版本v10.19.0，系统是Ubuntu 20.04<br>先说路径，是自己初始化博客的那个文件夹，下的_config.yml<br>highlight:<br>  enable: false         #就只有这一句，true改成false，就结束了<br>  line_number: true<br>  auto_detect: false<br>  tab_replace: ‘’<br>  wrap: true<br>  hljs: false</p>
+    <title>C盘爆满清理方法和不借助第三方工具完成C盘扩容（详细教程）</title>
+    <url>/2023/03/23/myblog/</url>
+    <content><![CDATA[<h2 id="一-C盘清理"><a href="#一-C盘清理" class="headerlink" title="一.C盘清理"></a>一.C盘清理</h2><ol>
+<li><p>使用联想电脑管家清理日常缓存文件</p>
+</li>
+<li><p>使用轻量软件geek卸载干净软件残留<br>下载官网极客卸载程序 - 下载 (geekuninstaller.com)</p>
+</li>
+<li><p>选择C盘——属性——磁盘清理——勾选要删除的文件——清理系统文件</p>
+</li>
+</ol>
+<p>若C盘还是爆满，可以进行C盘扩容，下面是本人折腾一晚上，成功将C盘100G扩大200G扩容方法</p>
+<p>数据重要，请提前备份</p>
+<h2 id="二-C盘扩容"><a href="#二-C盘扩容" class="headerlink" title="二.C盘扩容"></a>二.C盘扩容</h2><blockquote>
+<blockquote>
+<p>一、前提条件：</p>
+</blockquote>
+</blockquote>
+<ol>
+<li>给C盘扩容的磁盘在物理上与C盘属于同一块硬盘，不同硬盘不能扩容</li>
+<li>盘符跟C盘相邻，也就是D盘</li>
+<li>D盘有足够的剩余空间</li>
+</ol>
+<blockquote>
+<blockquote>
+<p>二、数据备份：<br>2. 准备一个剩余存储空间足够容纳D盘所有数据的硬盘，可以是移动硬盘也可以是电脑中的其他磁盘<br>3. 把D盘查看隐藏文件打开<br>3把D盘上的数据全部拷贝到准备好的硬盘上（此处我是将数据全部剪切到电脑上的E盘）<br>4.测试一下安装在D盘上的软件是否还能正常使用，正常情况下已经无法正常运行</p>
+</blockquote>
+</blockquote>
+<h2 id="三、删除D盘分区：（前提是已完成D盘数据备份且系统不是装在D盘）"><a href="#三、删除D盘分区：（前提是已完成D盘数据备份且系统不是装在D盘）" class="headerlink" title="三、删除D盘分区：（前提是已完成D盘数据备份且系统不是装在D盘）"></a>三、删除D盘分区：（前提是已完成D盘数据备份且系统不是装在D盘）</h2><p>1.右键此电脑，点击管理，点击左侧存储下的磁盘管理<br>2右键D盘，点击“删除卷”，在弹出的提示中点击“是”</p>
+<h2 id="四、扩展C盘："><a href="#四、扩展C盘：" class="headerlink" title="四、扩展C盘："></a>四、扩展C盘：</h2><p>1.右键C盘，点击“扩展卷”，在弹出的扩展卷向导中点击下一页，在“选择空间量”中输入要扩<br>大小<br>2.此时C盘已扩展完成</p>
+<h2 id="五、数据迁回："><a href="#五、数据迁回：" class="headerlink" title="五、数据迁回："></a>五、数据迁回：</h2><p>1.右键未分配部分，点击“新建简单卷”，一路点击下一页，但是注意盘符为D<br>2点击完成后关闭“计算机管理”界面，打开此电脑或者资源管理器，找到盘，把之前备份的数<br>拷到D盘中<br>3.再次测试一下安装在D盘上的软件是否还能正常使用，正常情况下已经可以正常运行</p>
+<p>title: 齐天のBLOG    #网页标题<br>subtitle:     #副标题<br>  enable:  false</p>
+<p>  effect: true<br>  loop: true<br>  sub:<br>    讲话要温和轻柔，态度要谦诚亲切。</p>
+<p><a href="http://github.com/">GitHub</a><br>自动生成连接  <a href="http://www.github.com/">http://www.github.com/</a></p>
+<p><img src="img/backgroud.png" alt="baidu"></p>
 ]]></content>
   </entry>
 </search>
