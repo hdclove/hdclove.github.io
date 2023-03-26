@@ -1,58 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World你好</title>
+    <title>使用Markdown写博客</title>
     <url>/2023/03/24/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+    <content><![CDATA[<h1 id="一、vscode下载markdown-all-in-one插件就能写和预览文章"><a href="#一、vscode下载markdown-all-in-one插件就能写和预览文章" class="headerlink" title="一、vscode下载markdown all in one插件就能写和预览文章"></a>一、vscode下载markdown all in one插件就能写和预览文章</h1><h1 id="二、Markdown的基本语法"><a href="#二、Markdown的基本语法" class="headerlink" title="二、Markdown的基本语法"></a>二、Markdown的基本语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1 标题"></a>1 标题</h2><p>使用#号标记，可以表示1-6级标题</p>
+<p><img src="images/2023-03-26-21-02-29.png"></p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="2-字体"><a href="#2-字体" class="headerlink" title="2 字体"></a>2 字体</h2><p><img src="images/2023-03-26-21-03-07.png"></p>
+<p><em>这是斜体</em>    这是斜体<br><em>这是斜体</em>    这是斜体<br><strong>这是粗体</strong>    这是粗体<br><strong>这是粗体</strong>    这是粗体<br><em><strong>这是粗斜体</strong></em>    这是粗斜体<br><em><strong>这是粗斜体</strong></em>    这是粗斜体  </p>
+<pre><code>快捷键：
+加粗Ctrl+B
+斜体Ctrl+I
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+<pre><code>&lt;font face=&quot;黑体&quot; color=#00fffe size=20&gt;改变文字格式&lt;/font&gt;
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+<p><font face="楷体" color=#00ffff size=5>改变文字格式</font></p>
+<h2 id="3-换行"><a href="#3-换行" class="headerlink" title="3 换行"></a>3 换行</h2><p>Markdown换行的方式有很多种:</p>
+<p>直接在一句话后敲两个空格<br>两句话之间加一个空行  </p>
+<h2 id="4-引用"><a href="#4-引用" class="headerlink" title="4 引用"></a>4 引用</h2><p>Markdown 中引用通过符号 &gt; 来实现。&gt; 符号后的空格，可有可无。<br>在引用的区块内，允许换行存在，换行并不会终止引用的区块。如果要结束引用，需要一行空白行，来结束引用的区块。<br>代码：</p>
+<blockquote>
+<p>这是一个引用</p>
+</blockquote>
+<p>这是一个引用<br><img src="images/2023-03-26-21-00-04.png"></p>
+<p>此外，引用还可以嵌套使用：<br>代码：</p>
+<blockquote>
+<p>这是一个引用：</p>
+<blockquote>
+<p>这是一个引用的引用</p>
+<blockquote>
+<p>这是一个引用的引用的引用</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="5-代码块"><a href="#5-代码块" class="headerlink" title="5.代码块"></a>5.代码块</h2><p>Markdown中代码块有两种：<br>如果在一行内需要引用代码，只需要用反引号`引起来就好了。<br>代码：</p>
+<p><code>Hello</code> World.<br>1<br>效果：</p>
+<p><code>Hello World.</code></p>
+<p>如果是在一个块内需要引用代码，则在需要引用的代码块的前一行和后一行使用三个反引号，同时在前一个反引号后写入代码的语言。<br>代码：<br><img src="images/2023-03-26-20-58-19.png"></p>
+<p>效果：</p>
+<pre><code>#include&lt;iostream&gt;
+int main()&#123;
+   printf(&quot;HelloWorld&quot;);
+&#125;
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+<h2 id="6-链接"><a href="#6-链接" class="headerlink" title="6.链接"></a>6.链接</h2><p>Markdown中插入链接的使用方式是：<br>代码：</p>
+<pre><code>[链接名称](链接地址)
+&lt;链接地址&gt;
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p><a href="https://blog.csdn.net/m0_60473755?type=blog">博客</a><br><a href="https://blog.csdn.net/m0_60473755?type=blog">https://blog.csdn.net/m0_60473755?type=blog</a></p>
+<h1 id="三、使用vscode软件的Paste-Image插件粘贴图片"><a href="#三、使用vscode软件的Paste-Image插件粘贴图片" class="headerlink" title="三、使用vscode软件的Paste Image插件粘贴图片"></a>三、使用vscode软件的Paste Image插件粘贴图片</h1><p>$ 配置Paste Image插件</p>
+<p>配置图片存储路径</p>
+<p>默认是markdown文件所在的文件夹，可以设置自定义文件夹（会自动创建），比如：</p>
+<p>${currentFileDir}/images/</p>
+<p><img src="images/2023-03-26-20-42-49.png"></p>
+<p>复制图片后按ctrl+alt+V就能粘贴图片了</p>
+<p><img src="images/2023-03-26-21-37-39.png"></p>
+<p>复制图片时有个bug，显示There is not a image in clipboard.</p>
+<p>我试了要点进图片里复制才不报错<br><img src="images/2023-03-26-21-42-18.png"></p>
 ]]></content>
+      <categories>
+        <category>hexo blog</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
   </entry>
   <entry>
-    <title>C盘爆满清理方法和不借助第三方工具完成C盘扩容（详细教程）</title>
+    <title>hexo+github+butterfly搭建博客</title>
     <url>/2023/03/23/myblog/</url>
-    <content><![CDATA[<h2 id="一-C盘清理"><a href="#一-C盘清理" class="headerlink" title="一.C盘清理"></a>一.C盘清理</h2><ol>
-<li><p>使用联想电脑管家清理日常缓存文件</p>
-</li>
-<li><p>使用轻量软件geek卸载干净软件残留<br>下载官网极客卸载程序 - 下载 (geekuninstaller.com)</p>
-</li>
-<li><p>选择C盘——属性——磁盘清理——勾选要删除的文件——清理系统文件</p>
-</li>
-</ol>
-<p>若C盘还是爆满，可以进行C盘扩容，下面是本人折腾一晚上，成功将C盘100G扩大200G扩容方法</p>
-<p>数据重要，请提前备份</p>
-<h2 id="二-C盘扩容"><a href="#二-C盘扩容" class="headerlink" title="二.C盘扩容"></a>二.C盘扩容</h2><blockquote>
-<blockquote>
-<p>一、前提条件：</p>
-</blockquote>
-</blockquote>
-<ol>
-<li>给C盘扩容的磁盘在物理上与C盘属于同一块硬盘，不同硬盘不能扩容</li>
-<li>盘符跟C盘相邻，也就是D盘</li>
-<li>D盘有足够的剩余空间</li>
-</ol>
-<blockquote>
-<blockquote>
-<p>二、数据备份：<br>2. 准备一个剩余存储空间足够容纳D盘所有数据的硬盘，可以是移动硬盘也可以是电脑中的其他磁盘<br>3. 把D盘查看隐藏文件打开<br>3把D盘上的数据全部拷贝到准备好的硬盘上（此处我是将数据全部剪切到电脑上的E盘）<br>4.测试一下安装在D盘上的软件是否还能正常使用，正常情况下已经无法正常运行</p>
-</blockquote>
-</blockquote>
-<h2 id="三、删除D盘分区：（前提是已完成D盘数据备份且系统不是装在D盘）"><a href="#三、删除D盘分区：（前提是已完成D盘数据备份且系统不是装在D盘）" class="headerlink" title="三、删除D盘分区：（前提是已完成D盘数据备份且系统不是装在D盘）"></a>三、删除D盘分区：（前提是已完成D盘数据备份且系统不是装在D盘）</h2><p>1.右键此电脑，点击管理，点击左侧存储下的磁盘管理<br>2右键D盘，点击“删除卷”，在弹出的提示中点击“是”</p>
-<h2 id="四、扩展C盘："><a href="#四、扩展C盘：" class="headerlink" title="四、扩展C盘："></a>四、扩展C盘：</h2><p>1.右键C盘，点击“扩展卷”，在弹出的扩展卷向导中点击下一页，在“选择空间量”中输入要扩<br>大小<br>2.此时C盘已扩展完成</p>
-<h2 id="五、数据迁回："><a href="#五、数据迁回：" class="headerlink" title="五、数据迁回："></a>五、数据迁回：</h2><p>1.右键未分配部分，点击“新建简单卷”，一路点击下一页，但是注意盘符为D<br>2点击完成后关闭“计算机管理”界面，打开此电脑或者资源管理器，找到盘，把之前备份的数<br>拷到D盘中<br>3.再次测试一下安装在D盘上的软件是否还能正常使用，正常情况下已经可以正常运行</p>
-<p>title: 齐天のBLOG    #网页标题<br>subtitle:     #副标题<br>  enable:  false</p>
-<p>  effect: true<br>  loop: true<br>  sub:<br>    讲话要温和轻柔，态度要谦诚亲切。</p>
-<p><a href="http://github.com/">GitHub</a><br>自动生成连接  <a href="http://www.github.com/">http://www.github.com/</a></p>
-<p><img src="/2023/03/23/myblog/backgroud.png" alt="avatar"></p>
+    <content><![CDATA[<h1 id="1、hexo-github搭建blog"><a href="#1、hexo-github搭建blog" class="headerlink" title="1、hexo+github搭建blog"></a>1、hexo+github搭建blog</h1><p>视频：<a href="https://www.bilibili.com/video/BV1cW411A7Jx/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2441f18f98edff40537a86d47be519ed">https://www.bilibili.com/video/BV1cW411A7Jx/?spm_id_from=333.337.search-card.all.click&amp;vd_source=2441f18f98edff40537a86d47be519ed</a></p>
+<p>bug解决<a href="https://blog.csdn.net/m0_60473755/article/details/129785597?csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22129785597%22,%22source%22:%22m0_60473755%22%7D">https://blog.csdn.net/m0_60473755/article/details/129785597?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22129785597%22%2C%22source%22%3A%22m0_60473755%22%7D</a></p>
+<h1 id="2、butterfly主题魔改"><a href="#2、butterfly主题魔改" class="headerlink" title="2、butterfly主题魔改"></a>2、butterfly主题魔改</h1><p>链接<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p>
+<h1 id="3-部署到Coding-net解决github访问慢的问题"><a href="#3-部署到Coding-net解决github访问慢的问题" class="headerlink" title="3.部署到Coding.net解决github访问慢的问题"></a>3.部署到Coding.net解决github访问慢的问题</h1><p>链接<a href="https://www.jianshu.com/p/414ca84237ea">https://www.jianshu.com/p/414ca84237ea</a></p>
 ]]></content>
+      <categories>
+        <category>hexo blog</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
