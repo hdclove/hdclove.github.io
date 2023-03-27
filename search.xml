@@ -15,7 +15,7 @@
 </code></pre>
 <pre><code>&lt;font face=&quot;黑体&quot; color=#00fffe size=20&gt;改变文字格式&lt;/font&gt;
 </code></pre>
-<p><font face="楷体" color=#00ffff size=5>改变文字格式</font></p>
+<p><font face="楷体" color="#00ffff" size="5">改变文字格式</font></p>
 <h2 id="3-换行"><a href="#3-换行" class="headerlink" title="3 换行"></a>3 换行</h2><p>Markdown换行的方式有很多种:</p>
 <p>直接在一句话后敲两个空格<br>两句话之间加一个空行  </p>
 <h2 id="4-引用"><a href="#4-引用" class="headerlink" title="4 引用"></a>4 引用</h2><p>Markdown 中引用通过符号 &gt; 来实现。&gt; 符号后的空格，可有可无。<br>在引用的区块内，允许换行存在，换行并不会终止引用的区块。如果要结束引用，需要一行空白行，来结束引用的区块。<br>代码：</p>
@@ -73,6 +73,7 @@ int main()&#123;
 <h1 id="2、butterfly主题魔改"><a href="#2、butterfly主题魔改" class="headerlink" title="2、butterfly主题魔改"></a>2、butterfly主题魔改</h1><p>链接<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p>
 <h1 id="3-部署到Coding-net解决github访问慢的问题"><a href="#3-部署到Coding-net解决github访问慢的问题" class="headerlink" title="3.部署到Coding.net解决github访问慢的问题"></a>3.部署到Coding.net解决github访问慢的问题</h1><p>链接<a href="https://www.jianshu.com/p/414ca84237ea">https://www.jianshu.com/p/414ca84237ea</a></p>
 <p><img src="$%7BcurrentFileDir%7D/images/e15f733d61aa57e0006d984612b970bc79d5741a1fdd5505b067cb9088b039c9.jpg" alt="图 1">  </p>
+<p><img src="../images/2023-03-27-17-20-06.png"></p>
 ]]></content>
       <categories>
         <category>hexo blog</category>
