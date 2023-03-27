@@ -3,8 +3,10 @@
   <entry>
     <title>使用Markdown写博客</title>
     <url>/2023/03/24/hello-world/</url>
-    <content><![CDATA[<h1 id="一、vscode下载markdown-all-in-one插件就能写和预览文章"><a href="#一、vscode下载markdown-all-in-one插件就能写和预览文章" class="headerlink" title="一、vscode下载markdown all in one插件就能写和预览文章"></a>一、vscode下载markdown all in one插件就能写和预览文章</h1><h1 id="二、Markdown的基本语法"><a href="#二、Markdown的基本语法" class="headerlink" title="二、Markdown的基本语法"></a>二、Markdown的基本语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1 标题"></a>1 标题</h2><p>使用#号标记，可以表示1-6级标题</p>
-<p><img src="_posts/images/2023-03-26-21-02-29.png"></p>
+    <content><![CDATA[<h1 id="一、vscode下载markdown-all-in-one插件就能写和预览文章"><a href="#一、vscode下载markdown-all-in-one插件就能写和预览文章" class="headerlink" title="一、vscode下载markdown all in one插件就能写和预览文章"></a>一、vscode下载markdown all in one插件就能写和预览文章</h1><p><img src="images/2023-03-26-23-03-46.png"></p>
+<h1 id="二、Markdown的基本语法"><a href="#二、Markdown的基本语法" class="headerlink" title="二、Markdown的基本语法"></a>二、Markdown的基本语法</h1><p><img src="images/2023-03-26-23-06-18.png"></p>
+<h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1 标题"></a>1 标题</h2><p>使用#号标记，可以表示1-6级标题</p>
+<p><img src="images/2023-03-26-21-02-29.png"></p>
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="2-字体"><a href="#2-字体" class="headerlink" title="2 字体"></a>2 字体</h2><p><img src="images/2023-03-26-21-03-07.png"></p>
 <p><em>这是斜体</em>    这是斜体<br><em>这是斜体</em>    这是斜体<br><strong>这是粗体</strong>    这是粗体<br><strong>这是粗体</strong>    这是粗体<br><em><strong>这是粗斜体</strong></em>    这是粗斜体<br><em><strong>这是粗斜体</strong></em>    这是粗斜体  </p>
 <pre><code>快捷键：
@@ -70,6 +72,7 @@ int main()&#123;
 <p>bug解决<a href="https://blog.csdn.net/m0_60473755/article/details/129785597?csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22129785597%22,%22source%22:%22m0_60473755%22%7D">https://blog.csdn.net/m0_60473755/article/details/129785597?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22129785597%22%2C%22source%22%3A%22m0_60473755%22%7D</a></p>
 <h1 id="2、butterfly主题魔改"><a href="#2、butterfly主题魔改" class="headerlink" title="2、butterfly主题魔改"></a>2、butterfly主题魔改</h1><p>链接<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p>
 <h1 id="3-部署到Coding-net解决github访问慢的问题"><a href="#3-部署到Coding-net解决github访问慢的问题" class="headerlink" title="3.部署到Coding.net解决github访问慢的问题"></a>3.部署到Coding.net解决github访问慢的问题</h1><p>链接<a href="https://www.jianshu.com/p/414ca84237ea">https://www.jianshu.com/p/414ca84237ea</a></p>
+<p><img src="images/2023-03-26-23-09-20.png" alt="00000"></p>
 ]]></content>
       <categories>
         <category>hexo blog</category>
