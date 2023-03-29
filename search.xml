@@ -58,6 +58,7 @@ int main()&#123;
 <p>复制图片时有个bug，显示There is not a image in clipboard.</p>
 <p>我试了要点进图片里复制才不报错<br><img src="images/2023-03-26-21-42-18.png"></p>
 <p><img src="images/2023-03-29-18-06-01.png"></p>
+<p><img src="$%7BcurrentFileDir%7D/images/a2fe37351ada32f12034d25be4285846d5339322e34184242630fe3d86674b92.png" alt="图 1">  </p>
 ]]></content>
       <categories>
         <category>hexo blog</category>
