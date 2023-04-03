@@ -76,6 +76,7 @@ int main()&#123;
 <p> <img src="images/2023-03-29-18-00-26.png"></p>
 <p>3.然后用记事本打开hosts文件，把刚刚复制的粘贴进去，保存。</p>
 <p>4.使用widows+R打开cmd，输入ipconfig/flushdns刷新dns就可以访问github了</p>
+<p><img src="$%7BcurrentFileDir%7D/images/e76e44e48a833dfd7aaf2268ca4fa0df59923a8c1afc4494f1e7a12407e346e4.jpg" alt="图 1">  </p>
 ]]></content>
       <categories>
         <category>github</category>
