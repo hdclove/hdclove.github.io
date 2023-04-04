@@ -87,14 +87,17 @@ int main()&#123;
   </entry>
   <entry>
     <title>解决github访问问题</title>
-    <url>/2023/03/29/github/github/</url>
+    <url>/2023/03/29/github/</url>
     <content><![CDATA[<p>1.到C:\Windows\System32\drivers\etc目录下有个hosts文件</p>
 <p>右键——属性——安全<br>然后点编辑，用户名点Users，下面修改和写入命令勾上，保存。</p>
 <p> 2.到<a href="https://gitee.com/fliu2476/github-hosts">https://gitee.com/fliu2476/github-hosts</a>里复制hosts</p>
 <p> <img src="images/2023-03-29-18-00-26.png"></p>
 <p>3.然后用记事本打开hosts文件，把刚刚复制的粘贴进去，保存。</p>
 <p>4.使用widows+R打开cmd，输入ipconfig/flushdns刷新dns就可以访问github了</p>
-<p><img src="$%7BcurrentFileDir%7D/images/4de202e249b64abff39be6511bc04551aaeba84b658dea1e61e019276b48af97.jpg" alt="图 1">  </p>
+<p><img src="/2023/03/29/github/158f470fc22dd4181a4650a6f60b767ea43d4b51011307cbfe51c6bc06d29d12.png" alt="图 3">  </p>
+<p><img src="/2023/03/29/github/f3a8fe11d161eb32766c2b7e050da5a95537e691099ca9930b209ccd1fd9bb38.png" alt="图 4">  </p>
+<p><img src="/2023/03/29/github/2023-04-06-38.png" alt="图 6">  </p>
+<p><img src="/2023/03/29/github/2023-04-06-49.png" alt="图 7">  </p>
 ]]></content>
       <categories>
         <category>github</category>
