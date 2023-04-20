@@ -65,8 +65,7 @@ int main()&#123;
 <p>默认是markdown文件所在的文件夹，可以设置自定义文件夹（会自动创建），比如：</p>
 <p>${currentFileDir}/images/</p>
 <p><img src="/2023/03/24/hello-world/2023-03-26-20-42-49.png"></p>
-<p>复制图片后按ctrl+alt+V就能粘贴图片了</p>
-<p><img src="/2023/03/24/hello-world/2023-03-26-21-37-39.png"></p>
+<p>复制图片后按ctrl+alt+V就能粘贴图片了  </p>
 <p>复制图片时有个bug，显示There is not a image in clipboard.</p>
 <p>我试了要点进图片里复制才不报错<br><img src="/2023/03/24/hello-world/2023-03-26-21-42-18.png"></p>
 ]]></content>
